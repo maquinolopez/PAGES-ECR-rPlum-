@@ -111,6 +111,10 @@ In this case we used a core which only has 210Pb measurements and we will have t
 
 Once this column has be added we can run Plum and in this case we will only be ask to confirme the number of sections
 and shown our raw data.
+
+```{r eval=FALSE}
+Plum('Sim02')
+```
 ```
  Run Sim02 with 25 sections? (Y/n) 
 ```
