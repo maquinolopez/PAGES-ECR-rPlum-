@@ -2,7 +2,7 @@
 title: "Introduction to rplum"
 author: "Marco A. Aquino-Lopez"
 date: "6/03/2020"
-output: html_document
+output: [html_document,pdf_document]
 ---
 
 # Clearing the R enviroment 
@@ -14,7 +14,7 @@ rm(list=ls())
 install.packages('rplum')
 ```
 # Loading the rplum library
-```{r}
+```{r eval=F}
 library(rplum)
 ```
 
