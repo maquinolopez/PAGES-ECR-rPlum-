@@ -107,7 +107,7 @@ By adding a extra column called info we can add:
 
 ![](./fig/Sim02_dat.png){ width=50% }
 
-In this case we used a core which only has 210Pb measurements and we will have the last 6 data points to be used exclusively for supported 201Pb estimation (constant). If a proxy for supported 210Pb is avalable the info column can be added as the 9th column (after the mesurement and standar deviation of the proxy for supported 210Pb).
+In this case we used a core which only has $^{210}Pb$ measurements and we will have the last 6 data points to be used exclusively for supported 201Pb estimation (constant). If a proxy for supported $^{210}Pb$ is avalable the info column can be added as the 9th column (after the mesurement and standar deviation of the proxy for supported $^{210}Pb$).
 
 Once this column has be added we can run Plum and in this case we will only be ask to confirme the number of sections
 and shown our raw data.
@@ -130,7 +130,7 @@ After confirming we get the age-depth model.
 Plum allows to incorporate other dating techniques such as Radiocarbon.
 
 
-To run a core which has 210Pb and 14C (or other dates) you can add a extra file into the core folder. This new file can be call anything but we recomment to keep the convention of the `core_name-C.csv`. 
+To run a core which has $^{210}Pb$ and $^{14}C$ (or other dates) you can add a extra file into the core folder. This new file can be call anything but we recomment to keep the convention of the `core_name-C.csv`. 
 
 This new file should have the same format as those used in Bacon, i.e :
 
