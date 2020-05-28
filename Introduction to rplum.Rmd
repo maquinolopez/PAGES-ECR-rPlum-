@@ -155,6 +155,102 @@ After confirming the number of sections, we get a merged age-depth model.
 ![](./fig/HP1C_C_chrono.png){ width=50% }
 
 
+# Accumulation rates
+
+Like Bacon, Plum can provide us with plots which help us analised the accumulation rate according to our age-depth model and its uncertanty.
+
+To simulate a clean start we clean the R enviroment
+
+```{r eval=FALSE}
+rm(list=ls())
+```
+
+If we already have our age-depth model and we want to get the accumulation rates we can run 
+
+```{r eval=FALSE}
+Plum("HP1C",1,"HP1C_C",run=FALSE)
+agedepth()
+dev.off()
+```
+Note: `agedepth()` will recreate the age-depth model. To reset the plot settings we run `dev.off()`.
+
+This will put all the necesary information in the R enviroment.
+
+
+ plotting accumulation rates for specific depth
+```{r eval=FALSE}
+accrate_d10 <- accrate.depth(d = 10)  
+head(accrate_d10)
+mean(accrate_d10);var(accrate_d10)
+plot(density(accrate_d10) ,main='Accumulation Rate at depth 10 cm',xlab='yr/cm',ylab='')
+```
+
+
+```{r eval=FALSE}
+accrate_d25 <- accrate.depth(d = 25,cmyr = TRUE)  
+head(accrate_d25)
+mean(accrate_d25);var(accrate_d25)
+plot(density(accrate_d25) ,main='Accumulation Rate at depth 25 cm',xlab='cm/yr',ylab='')
+```
+
+plotting accumulation rates for specific age
+
+```{r eval=FALSE}
+accrate_a300 <- accrate.age(age=300)  
+head(accrate_a300)
+mean(accrate_a300);var(accrate_a300)
+plot(density(accrate_a300) ,main='Accumulation Rate at age 300 BP',xlab='yr/cm',ylab='')
+```
+
+
+```{r eval=FALSE}
+acc_rate_10 <- accrate.age(age = -10,cmyr = TRUE)  
+head(acc_rate_10)
+mean(acc_rate_10);var(acc_rate_10)
+plot(density(acc_rate_10) ,main='Accumulation Rate at ageh -10 BP',xlab='cm/yr',ylab='')
+```
+
+plotting accumulation rates for whole model
+by depth
+
+```{r eval=FALSE}
+accrate.depth.ghost(cmyr = T, acc.lim = c(0,1.5) )
+```
+
+```{r eval=FALSE}
+accrate.depth.ghost(acc.lim = c(0,5), d.lim = c(0,10))
+```
+by age
+
+
+
+```{r eval=FALSE}
+accrate.age.ghost(acc.lim = c(0,40))
+
+```
+
+
+
+```{r eval=FALSE}
+accrate.age.ghost(cmyr = TRUE,age.lim = c(-20,50),acc.lim = c(0,.28))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
