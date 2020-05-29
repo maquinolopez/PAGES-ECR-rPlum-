@@ -15,7 +15,7 @@ header-includes:
    \usepackage{movie15}
    \pagestyle{fancy}
    \setlength\headheight{36pt}
-   \fancyhead[L]{\includegraphics[height=1.1cm]{./img/MUlogo.png}}
+   \fancyhead[R]{\includegraphics[height=1.1cm]{./img/MUlogo.png}}
    \fancyfoot[LE,RO]{GPIM}
 ---
 
@@ -53,7 +53,7 @@ On the other hand, {\itshape Plum} works by implementing a statistical approach 
 Where $mu_i^s$ is the "true" levels of supported $^{210}Pb$ and $\mu_i^u$ the unsupported levels in sample $y_i$. By assuming a constant supply of $^{210}Pb$ ($\Phi$) we get that, $$\mu_i^u = \frac{\Phi}{\lambda} \left(e^{-\lambda t(x_i-\delta)}- e^{-\lambda t(x_i)} \right) $$ & \begin{minipage}{0.85\textwidth}\includegraphics[width=2.5cm]{./img/Core_Plum.png} \end{minipage}
 \end{tabular}
 \end{center}
-
+\cite{Appleby1978}
 # Plum flexible age-depth function
 
 Function $t(x)$ is define as the autoregressive gamma process presented by Blaauw & Christen (2011) also known as _Bacon_.
@@ -68,8 +68,58 @@ Function $t(x)$ is define as the autoregressive gamma process presented by Blaau
 3. It is a Bayesian approach
 4. Native integration of other dating information
 
+# Benefits of _Plum_
+## Accuracy 
+\centering
+\includegraphics[width=6.7cm]{./img/Simulation_paper.png}
 
-# Accuracy 
+
+# Benefits of _Plum_
+## Realistic uncertainties
+\centering
+\includegraphics[width=7cm]{./img/SAMO14_2.png}
+
+
+
+# Benefits of _Plum_
+## It is a Bayesian approach
+\centering
+\includegraphics[width=7cm]{./img/Plum_default2.png}
+
+
+# Benefits of _Plum_
+## Native integration of other dating information
+\centering
+\includegraphics[width=7cm]{./img/HP1C_C_chrono.png}
+
+
+
+# Chronology limit
+The age limit of chronologies using $^{210}Pb$ was define by Appleby (1998) as <150 yr. 
+
+This limit was sets a hard bound on any chronology regarles of any particular circumstances. 
+
+Plum on the other hand, has a dynamic age-limit which takes into account several factors and it is define as:
+
+$$t_l= \frac{1}{\lambda}\log\left(\frac{\Phi}{A_l\lambda} \right)$$
+
+$\Phi$ is the influx of $^{210}Pb$ to the site, and $A_l$ is the unobserved $^{210}Pb$. 
+
+
+# Chronolgy limit
+## Limit under simulations.
+\centering
+\includegraphics[width=7cm]{./img/SAMO14_2.png}
+
+# Chronolgy limit
+What happens when we have full data and remove the age limit.
+\centering
+\includegraphics[width=6.3cm]{./img/Absurde age-depth limit.png}
+
+
+
+# Sampling
+
 
 
 
