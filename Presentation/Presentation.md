@@ -120,12 +120,6 @@ What happens when we have full data and remove the age limit.
 \includegraphics[width=6.3cm]{./img/Absurde age-depth limit.png}
 
 
-
-# Plum and Sampling
-
-\centering
-\includegraphics[width=7.5cm]{./img/Sampling.png}
-
 # Plum and sampling
 
 \centering
@@ -136,11 +130,13 @@ What happens when we have full data and remove the age limit.
 \includegraphics[width=9.5cm]{./img/Chrono_ssize_dif.png}
 
 
-# Plum on different sampling resolutions
-
+# Plum on different scenarios 
 \centering
 \includegraphics[width=7.5cm]{./img/Sampling.png}
 
+# Thank you
+\centering
+Thank you
 
 
 
