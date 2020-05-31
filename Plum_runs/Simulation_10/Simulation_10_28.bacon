@@ -1,0 +1,18 @@
+## Ran on Sun May 31 15:21:59 2020 
+
+Cal 0 : ConstCal;
+Cal 1 : IntCal13, 0;
+Cal 2 : Marine13;
+Cal 3 : SHCal13, 0;
+Cal 4 : ConstCal;
+##          alPhi mPhi  alS  mS     Al   theta0  Radon_case  supported_data_file
+Cal 5 : Plum, 2, 50, 5, 10, 0.1, -70, 1, /Users/maquinolopez/MEGA/Presentations/ECR_Latino_America/Code/PAGES-ECR-rPlum-/Plum_runs/Simulation_10/Simulation_10_28.plum;
+##    , labID, X210Pb.Bq.kg., sd.210Pb., depth.cm., thickness.cm., density.g.cm.3., t.a, t.b, cc,  ... Plum: 210Pb data
+Det 0 : NA , 99.68602, 1e+05, 0, 1, 1.000913, 3, 4, 5;
+Det 1 : 1 , 99.68602, 4.485871, 1, 1, 1.000913, 3, 4, 5;
+Det 2 : 7 , 269.9189, 12.14635, 7, 1, 1.111605, 3, 4, 5;
+Det 3 : 13 , 122.4893, 5.512016, 13, 1, 1.37065, 3, 4, 5;
+Det 4 : 27 , 15.83658, 1, 27, 1, 1.966577, 3, 4, 5;
+
+##		 K   MinAge   MaxAge   th0   th0p   w.a   w.b   alpha  beta  dmin  dmax
+Bacon 0: FixT, 28,  -70.02,  26500,  -70.01,  -69.99,  2.8,  1.2,  1.5,  0.15, 0, 28;

@@ -155,7 +155,8 @@ After confirming the number of sections, we get a merged age-depth model.
 ![](./fig/HP1C_C_chrono.png){ width=50% }
 
 
-# Accumulation rates
+# Accumulation rates:
+## Spesific depths 
 
 Like Bacon, Plum can provide us with plots which help us analised the accumulation rate according to our age-depth model and its uncertanty.
 
@@ -177,13 +178,15 @@ Note: `agedepth()` will recreate the age-depth model. To reset the plot settings
 This will put all the necesary information in the R enviroment.
 
 
- plotting accumulation rates for specific depth
+Plotting accumulation rates for specific depth
 ```{r eval=FALSE}
 accrate_d10 <- accrate.depth(d = 10)  
 head(accrate_d10)
 mean(accrate_d10);var(accrate_d10)
 plot(density(accrate_d10) ,main='Accumulation Rate at depth 10 cm',xlab='yr/cm',ylab='')
 ```
+
+![](./fig/Acc_10.png){ width=50% }
 
 
 ```{r eval=FALSE}
@@ -192,6 +195,8 @@ head(accrate_d25)
 mean(accrate_d25);var(accrate_d25)
 plot(density(accrate_d25) ,main='Accumulation Rate at depth 25 cm',xlab='cm/yr',ylab='')
 ```
+![](./fig/acc_25.png){ width=50% }
+
 
 plotting accumulation rates for specific age
 
@@ -202,6 +207,8 @@ mean(accrate_a300);var(accrate_a300)
 plot(density(accrate_a300) ,main='Accumulation Rate at age 300 BP',xlab='yr/cm',ylab='')
 ```
 
+![](./fig/acc_300.png){ width=50% }
+
 
 ```{r eval=FALSE}
 acc_rate_10 <- accrate.age(age = -10,cmyr = TRUE)  
@@ -210,17 +217,25 @@ mean(acc_rate_10);var(acc_rate_10)
 plot(density(acc_rate_10) ,main='Accumulation Rate at ageh -10 BP',xlab='cm/yr',ylab='')
 ```
 
-plotting accumulation rates for whole model
-by depth
+![](./fig/acc_-10.png){ width=50% }
+
+
+## Plotting accumulation rates for whole model:
+### By depth
 
 ```{r eval=FALSE}
 accrate.depth.ghost(cmyr = T, acc.lim = c(0,1.5) )
 ```
+![](./fig/accd_gh_cmyr.png){ width=50% }
+
+
 
 ```{r eval=FALSE}
 accrate.depth.ghost(acc.lim = c(0,5), d.lim = c(0,10))
 ```
-by age
+![](./fig/accd_gh_yrcm.png){ width=50% }
+
+### By age
 
 
 
@@ -228,14 +243,14 @@ by age
 accrate.age.ghost(acc.lim = c(0,40))
 
 ```
-
+![](./fig/acca_gh_cmyr.png){ width=50% }
 
 
 ```{r eval=FALSE}
 accrate.age.ghost(cmyr = TRUE,age.lim = c(-20,50),acc.lim = c(0,.28))
 ```
 
-
+![](./fig/acca_gh_cmyr.png){ width=50% }
 
 
 

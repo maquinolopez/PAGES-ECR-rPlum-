@@ -50,7 +50,7 @@ On the other hand, {\itshape Plum} works by implementing a statistical approach 
 
 \begin{center}
 \begin{tabular}{p{7.51cm}p{2.51cm}}
-Where $mu_i^s$ is the "true" levels of supported $^{210}Pb$ and $\mu_i^u$ the unsupported levels in sample $y_i$. By assuming a constant supply of $^{210}Pb$ ($\Phi$) we get that, $$\mu_i^u = \frac{\Phi}{\lambda} \left(e^{-\lambda t(x_i-\delta)}- e^{-\lambda t(x_i)} \right) $$ & \begin{minipage}{0.85\textwidth}\includegraphics[width=2.5cm]{./img/Core_Plum.png} \end{minipage}
+Where $\mu_i^s$ is the "true" levels of supported $^{210}Pb$ and $\mu_i^u$ the unsupported levels in sample $y_i$. By assuming a constant supply of $^{210}Pb$ ($\Phi$) we get that, $$\mu_i^u = \frac{\Phi}{\lambda} \left(e^{-\lambda t(x_i-\delta)}- e^{-\lambda t(x_i)} \right) $$ & \begin{minipage}{0.85\textwidth}\includegraphics[width=2.5cm]{./img/Core_Plum.png} \end{minipage}
 \end{tabular}
 \end{center}
 \cite{Appleby1978}
@@ -60,6 +60,9 @@ Function $t(x)$ is define as the autoregressive gamma process presented by Blaau
 
 \includemovie{1cm}{1cm}{./img/animasin.gif}
 
+# Plum uses an MCM
+
+visit: [Plum's Simulation animation](https://raw.githubusercontent.com/maquinolopez/PAGES-ECR-rPlum-/master/Presentation/img/animasin.gif)
 
 # Benefits of _Plum_
 
@@ -118,7 +121,32 @@ What happens when we have full data and remove the age limit.
 
 
 
-# Sampling
+# Plum and Sampling
+
+\centering
+\includegraphics[width=7.5cm]{./img/Sampling.png}
+
+# Plum and sampling
+
+\centering
+\includegraphics[width=9.5cm]{./img/Chrono_ssize.png}
+
+# Plum and sampling
+\centering
+\includegraphics[width=9.5cm]{./img/Chrono_ssize_dif.png}
+
+
+# Plum on different sampling resolutions
+
+\centering
+\includegraphics[width=7.5cm]{./img/Sampling.png}
+
+
+
+
+
+
+
 
 
 

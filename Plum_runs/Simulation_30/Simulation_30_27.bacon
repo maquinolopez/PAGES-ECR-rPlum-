@@ -1,0 +1,22 @@
+## Ran on Sun May 31 15:59:22 2020 
+
+Cal 0 : ConstCal;
+Cal 1 : IntCal13, 0;
+Cal 2 : Marine13;
+Cal 3 : SHCal13, 0;
+Cal 4 : ConstCal;
+##          alPhi mPhi  alS  mS     Al   theta0  Radon_case  supported_data_file
+Cal 5 : Plum, 2, 50, 5, 10, 0.1, -70, 1, /Users/maquinolopez/MEGA/Presentations/ECR_Latino_America/Code/PAGES-ECR-rPlum-/Plum_runs/Simulation_30/Simulation_30_27.plum;
+##    , labID, X210Pb.Bq.kg., sd.210Pb., depth.cm., thickness.cm., density.g.cm.3., t.a, t.b, cc,  ... Plum: 210Pb data
+Det 0 : NA , 99.68602, 1e+05, 0, 1, 1.000913, 3, 4, 5;
+Det 1 : 1 , 99.68602, 4.485871, 1, 1, 1.000913, 3, 4, 5;
+Det 2 : 3 , 200.0878, 9.003952, 3, 1, 1.017258, 3, 4, 5;
+Det 3 : 6 , 287.5046, 12.93771, 6, 1, 1.080856, 3, 4, 5;
+Det 4 : 9 , 227.6145, 10.24265, 9, 1, 1.185484, 3, 4, 5;
+Det 5 : 12 , 155.9083, 7.015872, 12, 1, 1.320898, 3, 4, 5;
+Det 6 : 16 , 63.72326, 2.867547, 16, 1, 1.526156, 3, 4, 5;
+Det 7 : 24 , 15.2863, 1, 24, 1, 1.888395, 3, 4, 5;
+Det 8 : 26 , 14.89872, 1, 26, 1, 1.9453, 3, 4, 5;
+
+##		 K   MinAge   MaxAge   th0   th0p   w.a   w.b   alpha  beta  dmin  dmax
+Bacon 0: FixT, 27,  -70.02,  26500,  -70.01,  -69.99,  2.8,  1.2,  1.5,  0.15, 0, 27;
