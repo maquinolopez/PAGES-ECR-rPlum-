@@ -121,28 +121,50 @@ What happens when we have full data and remove the age limit.
 
 
 # Plum and sampling
-
 \centering
-\includegraphics[width=9.5cm]{./img/Chrono_ssize.png}
+\includegraphics[width=9cm]{./img/Chrono_ssize.png}
+
+
 
 # Plum and sampling
 \centering
-\includegraphics[width=9.5cm]{./img/Chrono_ssize_dif.png}
+\includegraphics[width=9cm]{./img/Chrono_ssize_dif.png}
+
+
+# Plum and sampling
+
+\centering
+\includegraphics[width=9cm]{./img/Chrono_ssize_difsd50.png}
+
+# Plum and sampling
+\centering
+\includegraphics[width=9cm]{./img/Chrono_ssize_difsd40.png}
+
+# Plum and sampling
+\centering
+\includegraphics[width=9cm]{./img/Chrono_ssize_difsd30.png}
+
+
+# Plum and sampling
+\centering
+\includegraphics[width=9cm]{./img/Chrono_ssize_difsd20.png}
+
+
+# Plum and sampling
+\centering
+\includegraphics[width=9cm]{./img/Chrono_ssize_difsd10.png}
+
 
 
 # Plum on different scenarios 
 \centering
 \includegraphics[width=7.5cm]{./img/Sampling.png}
 
+
+
 # Thank you
 \centering
 Thank you
-
-
-
-
-
-
 
 
 
