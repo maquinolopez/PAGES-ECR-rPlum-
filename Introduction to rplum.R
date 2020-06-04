@@ -2,6 +2,7 @@
 # title: "Introduction to rplum"
 # author: "Marco A. Aquino-Lopez"
 # date: "6/03/2020"
+# doi: 
 # ---
   
 ### Clearing the R enviroment 

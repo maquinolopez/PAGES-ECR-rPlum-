@@ -104,7 +104,8 @@ c. The top part of the sample was removed
 - Both the CRS model and _Plum_ are in good agreement but _Plum_ shows a more realistic uncertainty given the number of samples measured
 
 _Site: Santa Maria del Oro, Mexico_
-_Core by Ruiz-Fernandez et al., (2019)_
+
+_Cored by Ruiz-Fernandez et al., (2019)_
 
 # Benefits of _Plum_
 ## Realistic uncertainties
@@ -116,7 +117,7 @@ _Core by Ruiz-Fernandez et al., (2019)_
 - Because plum is a Bayesian approach it allow us to quantify how much the model _learned_ from the data
 - It allows for easy integration of other dating sources without the need of pre-modelling 
 
-_Core by Dr. Nicole Sanderson_
+_Cored by Dr. Nicole Sanderson_
 
 # Benefits of _Plum_
 ## It is a Bayesian approach
